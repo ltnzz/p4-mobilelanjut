@@ -15,7 +15,7 @@ export const todoReducer = (state, action) => {
         return [
             ...state,
             {
-                id: Date.now().toString(),
+                id: Date.now().toString() + Math.random().toString(),
                 text: action.payload.text.trim(),
                 done: false,
                 createdAt: new Date().toISOString(),
