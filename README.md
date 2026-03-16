@@ -45,7 +45,7 @@ MyTodos ini adalah aplikasi mobile berbasis React Native yang memungkinkan pengg
 ## Cara Menjalankan
 
 # Clone repo atau pastikan proyek ada di folder lokal
-- git clone [URL_REPO]   # opsional, kalau dari GitHub
+- git clone [URL_REPO]
 - cd [NAMA_FOLDER_PROYEK]
 
 1. Install dependencies:
@@ -69,4 +69,3 @@ npx expo start
 * Pilih prioritas saat menambahkan todo agar tampil berwarna.
 * Gunakan tombol Light/Dark mode untuk mengganti tema aplikasi.
 
-```
